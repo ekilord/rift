@@ -1,0 +1,31 @@
+{
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "has_precipitation": true,
+  "effects": {
+    "sky_color": 13357548,
+    "fog_color": 10592673,
+    "water_color": 7782810,
+    "water_fog_color": 3307115,
+    "grass_color": 12401981,
+    "foliage_color": 9845820
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "rift:athena1a_spike_tree"
+    ],
+    []
+  ]
+}

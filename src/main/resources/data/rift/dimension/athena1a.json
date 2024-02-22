@@ -1,0 +1,11 @@
+{
+  "type": "rift:athena1a",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "rift:athena1a",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "rift:bleeding_plains"
+    }
+  }
+}

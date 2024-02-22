@@ -1,0 +1,7 @@
+{
+  "type": "rift:cylinder_spike",
+  "config": {
+    "minRadius": 5,
+    "maxRadius": 20
+  }
+}
