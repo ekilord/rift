@@ -1,20 +1,20 @@
 {
-  "type": "rift:hermes6b",
+  "type": "rift:saffar_dimension_type",
   "generator": {
     "type": "minecraft:noise",
-    "settings": "rift:hermes6b",
+    "settings": "rift:saffar_noise_settings",
     "biome_source": {
       "type": "minecraft:multi_noise",
       "biomes": [
         {
-          "biome": "rift:roaring_chasms",
+          "biome": "rift:roaring_gorges",
           "parameters": {
             "temperature": 0,
             "humidity": 0,
             "continentalness": 0,
             "erosion": 0,
             "weirdness": 0,
-            "depth": 0.3,
+            "depth": -0.2,
             "offset": 0
           }
         },
@@ -26,7 +26,7 @@
             "continentalness": 0,
             "erosion": 0,
             "weirdness": 0,
-            "depth": -1,
+            "depth": 1,
             "offset": 0
           }
         }
