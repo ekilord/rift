@@ -1,0 +1,78 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "rift:block/komatite"
+      },
+      {
+        "model": "rift:block/komatite",
+        "x": 90
+      },
+      {
+        "model": "rift:block/komatite",
+        "x": 180
+      },
+      {
+        "model": "rift:block/komatite",
+        "x": 270
+      },
+      {
+        "model": "rift:block/komatite",
+        "y": 90
+      },
+      {
+        "model": "rift:block/komatite",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "rift:block/komatite",
+        "x": 180,
+        "y": 90
+      },
+      {
+        "model": "rift:block/komatite",
+        "x": 270,
+        "y": 90
+      },
+      {
+        "model": "rift:block/komatite",
+        "y": 180
+      },
+      {
+        "model": "rift:block/komatite",
+        "x": 90,
+        "y": 180
+      },
+      {
+        "model": "rift:block/komatite",
+        "x": 180,
+        "y": 180
+      },
+      {
+        "model": "rift:block/komatite",
+        "x": 270,
+        "y": 180
+      },
+      {
+        "model": "rift:block/komatite",
+        "y": 270
+      },
+      {
+        "model": "rift:block/komatite",
+        "x": 90,
+        "y": 270
+      },
+      {
+        "model": "rift:block/komatite",
+        "x": 180,
+        "y": 270
+      },
+      {
+        "model": "rift:block/komatite",
+        "x": 270,
+        "y": 270
+      }
+    ]
+  }
+}

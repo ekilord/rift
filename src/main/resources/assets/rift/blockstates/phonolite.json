@@ -1,0 +1,78 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "rift:block/phonolite"
+      },
+      {
+        "model": "rift:block/phonolite",
+        "x": 90
+      },
+      {
+        "model": "rift:block/phonolite",
+        "x": 180
+      },
+      {
+        "model": "rift:block/phonolite",
+        "x": 270
+      },
+      {
+        "model": "rift:block/phonolite",
+        "y": 90
+      },
+      {
+        "model": "rift:block/phonolite",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "rift:block/phonolite",
+        "x": 180,
+        "y": 90
+      },
+      {
+        "model": "rift:block/phonolite",
+        "x": 270,
+        "y": 90
+      },
+      {
+        "model": "rift:block/phonolite",
+        "y": 180
+      },
+      {
+        "model": "rift:block/phonolite",
+        "x": 90,
+        "y": 180
+      },
+      {
+        "model": "rift:block/phonolite",
+        "x": 180,
+        "y": 180
+      },
+      {
+        "model": "rift:block/phonolite",
+        "x": 270,
+        "y": 180
+      },
+      {
+        "model": "rift:block/phonolite",
+        "y": 270
+      },
+      {
+        "model": "rift:block/phonolite",
+        "x": 90,
+        "y": 270
+      },
+      {
+        "model": "rift:block/phonolite",
+        "x": 180,
+        "y": 270
+      },
+      {
+        "model": "rift:block/phonolite",
+        "x": 270,
+        "y": 270
+      }
+    ]
+  }
+}

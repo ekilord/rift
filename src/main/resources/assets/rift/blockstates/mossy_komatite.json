@@ -1,0 +1,24 @@
+{
+  "variants": {
+    "snowy=false": [
+      {
+        "model": "rift:block/mossy_komatite"
+      },
+      {
+        "model": "rift:block/mossy_komatite",
+        "y": 90
+      },
+      {
+        "model": "rift:block/mossy_komatite",
+        "y": 180
+      },
+      {
+        "model": "rift:block/mossy_komatite",
+        "y": 270
+      }
+    ],
+    "snowy=true": {
+      "model": "rift:block/mossy_komatite"
+    }
+  }
+}

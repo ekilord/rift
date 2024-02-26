@@ -1,6 +1,6 @@
 package com.ekilord.rift;
 
-import com.ekilord.rift.worldgen.carver.RiftCarvers;
+import com.ekilord.rift.block.RiftBlocks;
 import com.ekilord.rift.worldgen.feature.RiftFeatures;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
@@ -29,7 +29,7 @@ public class Rift
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         modEventBus.addListener(this::commonSetup);
 
-        RiftCarvers.register(modEventBus);
+        RiftBlocks.register(modEventBus);
         RiftFeatures.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
