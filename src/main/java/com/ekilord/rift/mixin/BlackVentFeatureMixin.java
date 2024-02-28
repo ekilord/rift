@@ -12,6 +12,8 @@ import org.spongepowered.asm.mixin.injection.Redirect;
 public class BlackVentFeatureMixin {
     @Redirect(method = "place", at = @At(value = "INVOKE", target = "Ljava/lang/Object;equals(Ljava/lang/Object;)Z"))
     public boolean redirectPlace(Object instance, Object o) {
-        return o.equals(BOPBlocks.BLACK_SAND.get()) || o.equals(BOPBlocks.GLOWING_MOSS_BLOCK.get()) || o.equals((Block) ACBlockRegistry.ABYSSMARINE.get());
+        return instance.equals(BOPBlocks.BLACK_SAND.get().defaultBlockState())||
+                instance.equals(BOPBlocks.GLOWING_MOSS_BLOCK.get().defaultBlockState()) ||
+                instance.equals(ACBlockRegistry.ABYSSMARINE.get().defaultBlockState());
     }
 }

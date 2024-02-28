@@ -30,12 +30,15 @@
     [],
     [
       "rift:tube_worm",
-      "alexscaves:mussel",
-      "alexscaves:ping_pong_sponge",
-      "alexscaves:dusk_anemone",
-      "alexscaves:twilight_anemone",
-      "alexscaves:midnight_anemone",
-      "minecraft:sea_pickle"
+      "rift:mussel",
+      "rift:ping_pong_sponge",
+      "rift:dusk_anemone",
+      "rift:twilight_anemone",
+      "rift:midnight_anemone",
+      "minecraft:sea_pickle",
+      "rift:huge_lily_pad",
+      "rift:lily_pad",
+      "rift:waterlily_patch"
     ],
     [
       "alexscaves:fill_in_bubbles_with_water"

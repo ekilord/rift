@@ -140,16 +140,27 @@ dependencies {
 
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 
+    //compileOnly(annotationProcessor("io.github.llamalad7:mixinextras-common:0.3.5"))
+    //implementation(jarJar("io.github.llamalad7:mixinextras-forge:0.3.5")) {
+    //    jarJar.ranged(it, "[0.3.5,)")
+    //}
+
     //Citadel
     implementation fg.deobf("maven.modrinth:jJfV67b1:3OJWvUG9")
     //Alex's Caves
     implementation fg.deobf("maven.modrinth:U6GY0xp0:SLvvjh2O")
+
     //ATO - All The Ores
     implementation fg.deobf("curse.maven:ato-405593:4844097")
+
     //Terrablender
     implementation fg.deobf("maven.modrinth:kkmrDlKT:htFwnGWu")
     //Biomes O' Plenty
     implementation fg.deobf("maven.modrinth:HXF82T3G:peO5lWzX")
+
+    //Obscure API
+
+    //Aquamirae
 
 }
 
