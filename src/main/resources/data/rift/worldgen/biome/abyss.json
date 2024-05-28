@@ -17,11 +17,11 @@
     [],
     [],
     [
-      "rift:abyssal_boulder"
+      "rift:thestias/abyssal_boulder"
     ],
     [
-      "rift:black_vent",
-      "rift:whalefall"
+      "rift:thestias/black_vent",
+      "rift:thestias/whalefall"
     ],
     [],
     [],
@@ -29,16 +29,16 @@
     [],
     [],
     [
-      "rift:tube_worm",
-      "rift:mussel",
-      "rift:ping_pong_sponge",
-      "rift:dusk_anemone",
-      "rift:twilight_anemone",
-      "rift:midnight_anemone",
+      "rift:thestias/tube_worm",
+      "rift:thestias/mussel",
+      "rift:thestias/ping_pong_sponge",
+      "rift:thestias/dusk_anemone",
+      "rift:thestias/twilight_anemone",
+      "rift:thestias/midnight_anemone",
       "minecraft:sea_pickle",
-      "rift:huge_lily_pad",
-      "rift:lily_pad",
-      "rift:waterlily_patch"
+      "rift:thestias/huge_lily_pad",
+      "rift:thestias/lily_pad",
+      "rift:thestias/waterlily_patch"
     ],
     [
       "alexscaves:fill_in_bubbles_with_water"

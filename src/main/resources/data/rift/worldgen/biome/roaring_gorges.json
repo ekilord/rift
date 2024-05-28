@@ -27,6 +27,12 @@
     [],
     [],
     [],
-    []
+    [
+      "rift:saffar/cold_desert_rocks",
+      "rift:saffar/dead_twiglet_tree",
+      "rift:saffar/patch_dead_grass",
+      "rift:saffar/patch_desert_grass",
+      "rift:saffar/patch_dune_grass"
+    ]
   ]
 }

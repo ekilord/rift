@@ -1,0 +1,10 @@
+{
+  "dimension": "rift:saffar",
+  "gravity": 9.807,
+  "orbit": "",
+  "oxygen": true,
+  "solar_power": 14,
+  "solar_system": "rift:saffar",
+  "temperature": 48,
+  "tier": 4
+}

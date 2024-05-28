@@ -1,11 +1,11 @@
 {
-  "type": "rift:tadmor_dimension_type",
+  "type": "rift:draugr_dimension_type",
   "generator": {
     "type": "minecraft:noise",
-    "settings": "rift:tadmor_noise_settings",
+    "settings": "rift:draugr_noise_settings",
     "biome_source": {
       "type": "minecraft:fixed",
-      "biome": "rift:everlong_plains"
+      "biome": "rift:entity"
     }
   }
 }

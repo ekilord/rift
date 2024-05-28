@@ -1,0 +1,10 @@
+{
+  "dimension": "rift:the_lone_station",
+  "gravity": 9.807,
+  "orbit": "",
+  "oxygen": true,
+  "solar_power": 14,
+  "solar_system": "rift:the_lone_station",
+  "temperature": 26,
+  "tier": 4
+}

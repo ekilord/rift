@@ -21,7 +21,7 @@ public class CylinderSpikeFeature extends Feature<CylinderSpikeConfiguration> {
         RandomSource randomsource = pContext.random();
 
         int radius = (int)Math.round(Math.random() *
-                (cylinderSpikeConfiguration.getMaxRadius() - cylinderSpikeConfiguration.getMinRadius()) + cylinderSpikeConfiguration.getMinRadius());
+                (cylinderSpikeConfiguration.maxRadius() - cylinderSpikeConfiguration.minRadius()) + cylinderSpikeConfiguration.minRadius());
         int height = (int)Math.round(Math.random() * 99 + 101);
 
         for(BlockPos blockpos : BlockPos.betweenClosed(new BlockPos(pContext.origin().getX() - radius, pContext.origin().getY() - 2, pContext.origin().getZ() - radius), new BlockPos(pContext.origin().getX() + radius, height, pContext.origin().getZ() + radius))) {

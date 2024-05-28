@@ -1,0 +1,11 @@
+{
+  "type": "rift:the_lone_station_dimension_type",
+  "generator": {
+    "type": "minecraft:noise",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "rift:space"
+    },
+    "settings": "rift:the_lone_station_noise_settings"
+  }
+}

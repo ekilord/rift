@@ -1,0 +1,10 @@
+{
+  "dimension": "rift:tadmor",
+  "gravity": 9.807,
+  "orbit": "",
+  "oxygen": true,
+  "solar_power": 14,
+  "solar_system": "rift:tadmor",
+  "temperature": 14,
+  "tier": 4
+}

@@ -1,9 +1,7 @@
 package com.ekilord.rift;
 
 import com.ekilord.rift.block.RiftBlocks;
-import com.ekilord.rift.worldgen.feature.RiftFeatures;
 import com.mojang.logging.LogUtils;
-import net.minecraft.client.Minecraft;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.server.ServerStartingEvent;
@@ -30,7 +28,7 @@ public class Rift
         modEventBus.addListener(this::commonSetup);
 
         RiftBlocks.register(modEventBus);
-        RiftFeatures.register(modEventBus);
+        //RiftFeatures.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
 
@@ -39,13 +37,11 @@ public class Rift
 
     private void commonSetup(final FMLCommonSetupEvent event)
     {
-        LOGGER.info("Hello from Spacefare!");
     }
 
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event)
     {
-        LOGGER.info("HELLO from server starting");
     }
 
     @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -54,8 +50,6 @@ public class Rift
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
-            LOGGER.info("HELLO FROM CLIENT SETUP");
-            LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
         }
     }
 }

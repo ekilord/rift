@@ -1,0 +1,10 @@
+{
+  "dimension": "rift:thestias",
+  "gravity": 9.807,
+  "orbit": "",
+  "oxygen": true,
+  "solar_power": 14,
+  "solar_system": "rift:thestias",
+  "temperature": 16,
+  "tier": 4
+}

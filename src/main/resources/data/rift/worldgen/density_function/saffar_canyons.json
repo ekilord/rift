@@ -1,0 +1,98 @@
+//[df-editor]:{"pos":[2976,249],"collapsed":false}
+{
+  //[df-editor]:{"pos":[2680,249],"collapsed":false}
+  "type": "interpolated",
+  "argument": {
+    //[df-editor]:{"pos":[2366,247],"collapsed":false}
+    "type": "add",
+    "argument1": {
+      //[df-editor]:{"pos":[1487,244],"collapsed":false}
+      "type": "add",
+      "argument1": {
+        //[df-editor]:{"pos":[674.4528198242188,-340.1392822265625],"collapsed":false}
+        "type": "add",
+        "argument1": {
+          //[df-editor]:{"pos":[374.4533996582031,-497.1392517089844],"collapsed":false}
+          "type": "y_clamped_gradient",
+          "from_y": -64,
+          "to_y": 320,
+          "from_value": 1,
+          "to_value": 0
+        },
+        "argument2": {
+          //[df-editor]:{"pos":[369.4533996582031,-254.13926696777344],"collapsed":false}
+          "type": "clamp",
+          "min": -0.5,
+          "max": 1,
+          "input": {
+            //[df-editor]:{"pos":[52.3590087890625,-266.675537109375],"collapsed":false}
+            "type": "noise",
+            "noise": "rift:canyon_noise",
+            "xz_scale": 1,
+            "y_scale": 0
+          }
+        }
+      },
+      "argument2": {
+        //[df-editor]:{"pos":[988,569],"collapsed":false}
+        "type": "squeeze",
+        "argument": {
+          //[df-editor]:{"pos":[698.5957641601562,565.3820190429688],"collapsed":false}
+          "type": "add",
+          "argument1": {
+            //[df-editor]:{"pos":[365.4134826660156,413.5635986328125],"collapsed":false}
+            "type": "y_clamped_gradient",
+            "from_y": 24,
+            "to_y": 64,
+            "from_value": 0.3,
+            "to_value": 0
+          },
+          "argument2": {
+            //[df-editor]:{"pos":[363.5201721191406,607.6560668945312],"collapsed":false}
+            "type": "add",
+            "argument1": {
+              //[df-editor]:{"pos":[65.5203857421875,483.65594482421875],"collapsed":false}
+              "type": "y_clamped_gradient",
+              "from_y": 24,
+              "to_y": 64,
+              "from_value": 1,
+              "to_value": -1
+            },
+            "argument2": {
+              //[df-editor]:{"pos":[66,677],"collapsed":false}
+              "type": "noise",
+              "noise": "rift:canyon_noise",
+              "xz_scale": 1,
+              "y_scale": 0
+            }
+          }
+        }
+      }
+    },
+    "argument2": {
+      //[df-editor]:{"pos":[2101,401],"collapsed":false}
+      "type": "clamp",
+      "min": 0,
+      "max": 1,
+      "input": {
+        //[df-editor]:{"pos":[1809,414],"collapsed":false}
+        "type": "add",
+        "argument1": {
+          //[df-editor]:{"pos":[1493,399],"collapsed":false}
+          "type": "noise",
+          "noise": "minecraft:gravel",
+          "xz_scale": 2,
+          "y_scale": 0
+        },
+        "argument2": {
+          //[df-editor]:{"pos":[1498,578],"collapsed":false}
+          "type": "y_clamped_gradient",
+          "from_y": 20,
+          "to_y": 32,
+          "from_value": 1,
+          "to_value": -1
+        }
+      }
+    }
+  }
+}
