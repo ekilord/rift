@@ -1,6 +1,7 @@
 package com.ekilord.rift;
 
 import com.ekilord.rift.block.RiftBlocks;
+import com.ekilord.rift.worldgen.feature.RiftFeatures;
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -28,7 +29,7 @@ public class Rift
         modEventBus.addListener(this::commonSetup);
 
         RiftBlocks.register(modEventBus);
-        //RiftFeatures.register(modEventBus);
+        RiftFeatures.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
 

@@ -1,0 +1,7 @@
+{
+  "type": "rift:canyon_arch",
+  "config": {
+    "minLength": 1,
+    "maxLength": 100
+  }
+}
